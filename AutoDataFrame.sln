@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoDataFrame", "AutoDataFrame\AutoDataFrame.vcxproj", "{163F78DD-ED11-430E-8660-F56CF7D8A839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{163F78DD-ED11-430E-8660-F56CF7D8A839}.Debug|x64.ActiveCfg = Debug|x64
+		{163F78DD-ED11-430E-8660-F56CF7D8A839}.Debug|x64.Build.0 = Debug|x64
+		{163F78DD-ED11-430E-8660-F56CF7D8A839}.Release|x64.ActiveCfg = Release|x64
+		{163F78DD-ED11-430E-8660-F56CF7D8A839}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69F5646D-ED52-47A1-8819-29D850554B51}
+	EndGlobalSection
+EndGlobal
