@@ -1,11 +1,14 @@
 #pragma once
 #include <QString>
 #include <QMap>
+#include <QDomElement>
 #include "AutoBaseWidget.h"
+#include "AMLabelLabel.h"
+#include "AMLabelLineLabel.h"
 
-class AutoWidgetFactory
+class AUTODATAFRAME_EXPORT AutoWidgetFactory
 {
 public:
-    virtual AutoBaseWidget* createWidget(const QString& typeName, QWidget* parent) = 0;
+    virtual AutoBaseWidget* createWidget(const QString& typeName, QDomElement ele, QWidget* parent);
     virtual ~AutoWidgetFactory() {}
 };

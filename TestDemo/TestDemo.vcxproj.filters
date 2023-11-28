@@ -23,41 +23,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="autodataframe_global.h">
+    <QtRcc Include="TestDemo.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="TestDemo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="TestDemo.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClCompile Include="AutoDataFrame.cpp">
+    </QtMoc>
+    <ClCompile Include="TestDemo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClInclude Include="AutoWidgetFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AutoDataFrame.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="AutoBaseWidget.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="AMLabelLabel.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="AMLabelLineLabel.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="AutoWidgetFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AMLabelLabel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AMLabelLineLabel.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
